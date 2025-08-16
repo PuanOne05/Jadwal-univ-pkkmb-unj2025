@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKKMB UNJ 2025 - Universitas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            color: #1a5276;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #1a5276;
+            padding-bottom: 10px;
+        }
+        h2 {
+            background-color: #1a5276;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #1a5276;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e6f7ff;
+        }
+        .note {
+            background-color: #eaf7fd;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .nav-button {
+            padding: 10px 20px;
+            background-color: #1a5276;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-button:hover {
+            background-color: #154360;
+        }
+        .section {
+            display: none;
+        }
+        .section.active {
+            display: block;
+        }
+        .tab-buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tab-button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            background-color: #ddd;
+            border: none;
+            border-radius: 5px 5px 0 0;
+            cursor: pointer;
+        }
+        .tab-button.active {
+            background-color: #1a5276;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>PKKMB UNJ 2025 - Tingkat Universitas</h1>
+    <p style="text-align: center; font-style: italic;">Tema: <strong>Edukasi Untuk Bumi Lestari</strong><br>Tagline: <strong>Hijau kampusku, Hijau bumiku</strong></p>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" onclick="showSection('jadwal')">Jadwal</button>
+        <button class="tab-button" onclick="showSection('dresscode')">Dresscode</button>
+        <button class="tab-button" onclick="showSection('penugasan')">Penugasan</button>
+        <button class="tab-button" onclick="showSection('barang')">Barang Wajib</button>
+    </div>
+
+    <div id="jadwal" class="section active">
+        <h2>Jadwal PKKMB Universitas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Kegiatan</th>
+                    <th>Lokasi/Keterangan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>16-17 Agustus 2025</td>
+                    <td>Pra PKKMB Universitas</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>19 Agustus 2025</td>
+                    <td>Opening PKKMB Universitas</td>
+                    <td>Kampus B UNJ & Lapangan Baseball Rawamangun</td>
+                </tr>
+                <tr>
+                    <td>28 Agustus 2025</td>
+                    <td>Closing PKKMB Universitas</td>
+                    <td>Dalam jaringan (online)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="dresscode" class="section">
+        <h2>Dresscode PKKMB Universitas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kegiatan</th>
+                    <th>Dresscode (Laki-Laki)</th>
+                    <th>Dresscode (Perempuan)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Opening (19 Agustus)</td>
+                    <td>
+                        <ul>
+                            <li>Kemeja putih lengan panjang (bahan non-kaos), rapi, tidak ketat</li>
+                            <li>Kaos dalam putih</li>
+                            <li>Celana bahan hitam panjang (bukan jeans/chinos)</li>
+                            <li>Ikat pinggang hitam</li>
+                            <li>Sneakers + kaos kaki hitam</li>
+                            <li>Rambut rapi (tidak menutup alis/telinga)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Kemeja putih lengan panjang (tidak transparan/ketat)</li>
+                            <li>Kaos dalam putih</li>
+                            <li>Rok hitam siluet A + legging hitam</li>
+                            <li>Sneakers + kaos kaki hitam</li>
+                            <li>Muslimah: Kerudung segi empat putih</li>
+                            <li>Non-muslim: Rambut diikat rapi</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Closing (28 Agustus)</td>
+                    <td colspan="2" style="text-align: center;">Sama dengan Opening (kegiatan online, tetapi tetap mematuhi dresscode)</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note">
+            <strong>Catatan Dresscode:</strong>
+            <ul>
+                <li><strong>Slayer</strong> wajib digunakan saat Opening (bahan satin, warna fakultas, ukuran 100x80 cm)</li>
+                <li><strong>Namebag identifier</strong> (karton hijau B2) dipasang di tas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="penugasan" class="section">
+        <h2>Penugasan Wajib & Deadline</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Penugasan Wajib</th>
+                    <th>Deadline</th>
+                    <th>Keterangan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Upload Twibbon PKKMB UNJ 2025 di Instagram dan X/Twitter</td>
+                    <td>Selama PKKMB berlangsung</td>
+                    <td>Wajib mencantumkan tagline "Hijau kampusku, Hijau bumiku"</td>
+                </tr>
+                <tr>
+                    <td>Mengisi post survei setelah Opening dan Closing</td>
+                    <td>Setelah 28 Agustus 2025</td>
+                    <td>Survei evaluasi kegiatan</td>
+                </tr>
+                <tr>
+                    <td>Menonton video materi di YouTube Kemahasiswaan UNJ + Post Test</td>
+                    <td>Selama PKKMB berlangsung</td>
+                    <td>Link video akan diumumkan oleh panitia</td>
+                </tr>
+                <tr>
+                    <td>Membawa minyak jelantah 1,5 liter (botol air mineral) saat Opening</td>
+                    <td>19 Agustus 2025</td>
+                    <td>Untuk program #DariJelantahuntukPenghijauan</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="barang" class="section">
+        <h2>Barang Wajib Dibawa saat Opening (19 Agustus)</h2>
+        <ol>
+            <li><strong>Slayer</strong> (sesuai ketentuan)</li>
+            <li><strong>Minyak jelantah 1,5L</strong> (dalam botol bekas air mineral)</li>
+            <li><strong>Namebag identifier</strong> (karton hijau B2, dilaminating)</li>
+            <li><strong>Bendera kecil fakultas</strong> + logo UNJ</li>
+            <li><strong>Perlengkapan ibadah</strong> (sejadah, mukena, air wudhu bagi muslim)</li>
+            <li>Tas ransel (disarankan tidak terlalu besar)</li>
+            <li>Payung/ponco (warna dominan hijau)</li>
+            <li>Obat pribadi</li>
+            <li>Air mineral</li>
+        </ol>
+        <div class="note">
+            <strong>Contact Person:</strong> Untuk pertanyaan lebih lanjut, hubungi Raffa (WA: 088210154458)
+        </div>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="nav-button" id="prevBtn" onclick="navigate(-1)">Sebelumnya</button>
+        <button class="nav-button" id="nextBtn" onclick="navigate(1)">Selanjutnya</button>
+    </div>
+
+    <script>
+        const sections = ['jadwal', 'dresscode', 'penugasan', 'barang'];
+        let currentSection = 0;
+        const tabButtons = document.querySelectorAll('.tab-button');
+
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Update tab buttons
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+                if (button.textContent.toLowerCase().includes(sectionId)) {
+                    button.classList.add('active');
+                }
+            });
+            
+            // Update currentSection index
+            currentSection = sections.indexOf(sectionId);
+            updateNavButtons();
+        }
+
+        function navigate(direction) {
+            currentSection += direction;
+            
+            // Circular navigation
+            if (currentSection < 0) {
+                currentSection = sections.length - 1;
+            } else if (currentSection >= sections.length) {
+                currentSection = 0;
+            }
+            
+            showSection(sections[currentSection]);
+        }
+
+        function updateNavButtons() {
+            // You can add logic here to disable buttons when at first/last section if needed
+        }
+
+        // Initialize
+        updateNavButtons();
+    </script>
+</body>
+</html>
